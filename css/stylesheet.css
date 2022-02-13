@@ -105,3 +105,16 @@ i.fa-volume-up, i.fa-volume-down {
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward, i.fa-random {
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 20px;
+    height: 95vh;
+  }
+  .song-name {
+    font-size: 2rem;
+  }
+
+  .now-playing {
+    font-size: 1rem;
+  }
