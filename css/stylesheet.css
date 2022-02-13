@@ -109,7 +109,6 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward, i.fa
 @media screen and (max-width: 900px) {
   .container {
     margin: 20px;
-    height: 95vh;
   }
   .song-name {
     font-size: 2rem;
