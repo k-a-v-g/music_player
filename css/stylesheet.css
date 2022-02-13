@@ -1,0 +1,107 @@
+body {
+  background-color: #a3c2c2;
+}
+
+.container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  border-radius: 15%;
+  background-image: url("../img/bg.jpg");
+}
+
+.player {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.now-playing {
+  font-size: 1.5rem;
+  color: #75a3a3;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.picture {
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+}
+
+.song-name {
+  font-size: 3rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.artist {
+  font-size: 1rem;
+  color: #75a3a3;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.previous, .pause, .next, .shuffle {
+  padding: 20px;
+  color: #75a3a3;
+}
+
+.previous:hover, .pause:hover, .next:hover, .shuffle:hover {
+  color: black;
+}
+
+.slider {
+  width: 75%;
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seek, .volume {
+  height: 5px;
+  background: grey;
+  opacity: 0.7;
+}
+
+.seek:hover, .volume:hover {
+  opacity: 1.0;
+}
+
+.seek {
+  width: 70%;
+}
+
+.volume {
+  width: 25%;
+}
+
+.current-time, .duration {
+  padding: 15px;
+}
+
+i.fa-volume-up, i.fa-volume-down {
+  padding: 15px;
+}
+
+i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward, i.fa-random {
+  cursor: pointer;
+}
